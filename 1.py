@@ -55,9 +55,3 @@ for row in cursor.fetchall():
 # Close cursor and connection
 cursor.close()
 conn.close()
-
-# python3 -m venv myenv
-# source myenv/bin/activate
-# pip install mysql-connector-python
-
-# python3 1.py
